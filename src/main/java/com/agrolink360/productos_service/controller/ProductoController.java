@@ -13,7 +13,6 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/productos")
-@CrossOrigin(origins = "*")
 public class ProductoController {
 
     @Autowired
@@ -61,6 +60,7 @@ public class ProductoController {
 
         return ResponseEntity.ok("Stock actualizado correctamente");
     }
+
 
 
 
